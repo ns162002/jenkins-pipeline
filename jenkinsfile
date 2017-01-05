@@ -1,0 +1,14 @@
+node('master') {
+    // some block
+    stage('Checkout') {
+        echo 'Checkout'
+    }
+
+    stage('Build') {
+        echo 'Build'
+    }
+
+    stage('Test') {
+        echo 'Test'
+    }
+}
